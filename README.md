@@ -10,16 +10,16 @@ This repository provides a configuration for setting up a minimalist terminal en
 
   
 **Installing yay**
-	```sh
-	sudo pacman -S --needed base-devel git
-	git clone https://aur.archlinux.org/yay.git
-	cd yay
-	makepkg -si
-	```
+```sh
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
  **Installing Oh My Zsh**
-	```sh
-	yay -S oh-my-zsh-git
-	```
+```sh
+yay -S oh-my-zsh-git
+```
 - - -
 ## Installation
 ```sh
