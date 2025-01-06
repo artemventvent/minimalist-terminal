@@ -6,15 +6,17 @@ This repository provides a configuration for setting up a minimalist terminal en
 - - - 
 ## Dependencies
 - **yay**
-	**Installing yay**
+- **Oh My Zsh**
+
+  
+**Installing yay**
 	```sh
 	sudo pacman -S --needed base-devel git
 	git clone https://aur.archlinux.org/yay.git
 	cd yay
 	makepkg -si
 	```
-- **Oh My Zsh**
-	**Installing Oh My Zsh**
+ **Installing Oh My Zsh**
 	```sh
 	yay -S oh-my-zsh-git
 	```
