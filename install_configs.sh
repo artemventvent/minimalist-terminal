@@ -35,8 +35,4 @@ log "Installing Zsh theme..."
 cp "simple-zsh.zsh-theme" ~/.oh-my-zsh/themes/simple-zsh.zsh-theme
 log_success "Zsh theme successfully installed."
 
-log "Cleaning up temporary files..."
-# sudo rm -rf "~/minimalist-terminal-tmp"
-log_success "Temporary files removed."
-
 log "Installation complete!"
