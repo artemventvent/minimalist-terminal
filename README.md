@@ -2,7 +2,7 @@
  
 This repository provides a configuration for setting up a minimalist terminal environment using the Kitty terminal emulator and the Zsh shell. It includes custom configurations, a Zsh theme, and the Dina font.
 
-![[preview.png]]
+![Terminal](preview.png)
 - - - 
 ## Dependencies
 - **yay**
