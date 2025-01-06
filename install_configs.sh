@@ -35,4 +35,8 @@ log "Installing Zsh theme..."
 cp "simple-zsh.zsh-theme" ~/.oh-my-zsh/themes/simple-zsh.zsh-theme
 log_success "Zsh theme successfully installed."
 
-log "Installation complete!"
+log "Changing the shell..."
+chsh -s $(which zsh)
+log_success "Shell successfully changed."
+
+log_success "Installation complete!"
